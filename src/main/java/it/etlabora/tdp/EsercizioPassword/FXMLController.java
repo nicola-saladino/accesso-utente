@@ -51,7 +51,7 @@ public class FXMLController {
     	        btnAccediId.setDisable(true);
     	    } else {
     	        // Il testo non soddisfa la regex
-    	        lblInformazione.setText("Errore: la password deve avere: 7 o + caratteri, maiuscola,carattere speciale");
+    	        lblInformazione.setText("Errore: la password non soddisfa i requisiti di sicurezza");
     	        btnAccediId.setDisable(false);
     	        txtInserisciNome.setDisable(true);
     	        if (tentativiIngresso >= 3) {
